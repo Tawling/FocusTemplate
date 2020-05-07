@@ -1,0 +1,9 @@
+C:\Users\John\source\repos\Focus Template.Core\bin\Debug\netstandard2.0\Focus Template.Core.deps.json
+C:\Users\John\source\repos\Focus Template.Core\bin\Debug\netstandard2.0\Focus Template.Core.dll
+C:\Users\John\source\repos\Focus Template.Core\bin\Debug\netstandard2.0\Focus Template.Core.pdb
+C:\Users\John\source\repos\Focus Template.Core\obj\Debug\netstandard2.0\Focus Template.Core.csprojAssemblyReference.cache
+C:\Users\John\source\repos\Focus Template.Core\obj\Debug\netstandard2.0\Focus Template.Core.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\Focus Template.Core\obj\Debug\netstandard2.0\Focus Template.Core.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\Focus Template.Core\obj\Debug\netstandard2.0\Focus Template.Core.AssemblyInfo.cs
+C:\Users\John\source\repos\Focus Template.Core\obj\Debug\netstandard2.0\Focus Template.Core.dll
+C:\Users\John\source\repos\Focus Template.Core\obj\Debug\netstandard2.0\Focus Template.Core.pdb
