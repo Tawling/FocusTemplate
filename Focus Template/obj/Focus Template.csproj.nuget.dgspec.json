@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template\\Focus Template.csproj": {}
+    "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template\\Focus Template.csproj": {}
   },
   "projects": {
-    "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj": {
+    "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj",
+        "projectUniqueName": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj",
         "projectName": "Focus Template.Core",
-        "projectPath": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj",
+        "projectPath": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj",
         "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template.Core\\obj\\",
+        "outputPath": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template\\Focus Template.csproj": {
+    "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template\\Focus Template.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template\\Focus Template.csproj",
+        "projectUniqueName": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template\\Focus Template.csproj",
         "projectName": "Focus Template",
-        "projectPath": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template\\Focus Template.csproj",
+        "projectPath": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template\\Focus Template.csproj",
         "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template\\obj\\",
+        "outputPath": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -86,8 +86,8 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj": {
-                "projectPath": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj"
+              "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj": {
+                "projectPath": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj"
               }
             }
           }
@@ -98,11 +98,11 @@
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.9, )"
+              "version": "[6.2.10, )"
             },
             "Microsoft.UI.Xaml": {
               "target": "Package",
-              "version": "[2.2.190917002, )"
+              "version": "[2.4.0, )"
             },
             "Microsoft.Xaml.Behaviors.Uwp.Managed": {
               "target": "Package",

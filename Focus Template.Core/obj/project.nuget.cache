@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NlCpAZa1zSSQgcKCWkyRaD+mzS2irYf60Gm9lDXuUPsmpI5r4cVOrX+tbTj2ZkP9x5YulBztEvnCtQv5UHiyrw==",
+  "dgSpecHash": "NnYcDn8w6K6LEJIbFYe0FCw+iP8xX1RBR7jBALSzSS+Zwyl+0Z0xkDsnzKCPrjeYRMKvgV6W6czY5Bk9hqBVWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\John\\source\\repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj",
+  "projectFilePath": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template.Core\\Focus Template.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\John\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\John\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
