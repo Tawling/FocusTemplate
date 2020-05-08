@@ -18,5 +18,10 @@
     <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.native.compiler\2.2.8-rel-28605-00\build\Microsoft.Net.Native.Compiler.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.native.compiler\2.2.8-rel-28605-00\build\Microsoft.Net.Native.Compiler.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.10\build\Microsoft.NetCore.UniversalWindowsPlatform.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.10\build\Microsoft.NetCore.UniversalWindowsPlatform.targets')" />
+    <Import Project="$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda.npp\10.1.243\build\Emgu.CV.runtime.windows.cuda.npp.targets" Condition="Exists('$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda.npp\10.1.243\build\Emgu.CV.runtime.windows.cuda.npp.targets')" />
+    <Import Project="$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda.dnn\7.5.1\build\Emgu.CV.runtime.windows.cuda.dnn.targets" Condition="Exists('$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda.dnn\7.5.1\build\Emgu.CV.runtime.windows.cuda.dnn.targets')" />
+    <Import Project="$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda.cufft\10.1.243\build\Emgu.CV.runtime.windows.cuda.cufft.targets" Condition="Exists('$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda.cufft\10.1.243\build\Emgu.CV.runtime.windows.cuda.cufft.targets')" />
+    <Import Project="$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda\4.2.0.3662\build\Emgu.CV.runtime.windows.cuda.targets" Condition="Exists('$(NuGetPackageRoot)emgu.cv.runtime.windows.cuda\4.2.0.3662\build\Emgu.CV.runtime.windows.cuda.targets')" />
+    <Import Project="$(NuGetPackageRoot)emgu.cv.runtime.windows\4.2.0.3662\build\Emgu.CV.runtime.windows.targets" Condition="Exists('$(NuGetPackageRoot)emgu.cv.runtime.windows\4.2.0.3662\build\Emgu.CV.runtime.windows.targets')" />
   </ImportGroup>
 </Project>

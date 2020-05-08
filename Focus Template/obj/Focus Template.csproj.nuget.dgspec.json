@@ -96,6 +96,14 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.2.0.3662, )"
+            },
+            "Emgu.CV.runtime.windows.cuda": {
+              "target": "Package",
+              "version": "[4.2.0.3662, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"

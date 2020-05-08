@@ -116,6 +116,12 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Emgu.CV.runtime.windows">
+      <Version>4.2.0.3662</Version>
+    </PackageReference>
+    <PackageReference Include="Emgu.CV.runtime.windows.cuda">
+      <Version>4.2.0.3662</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
     </PackageReference>

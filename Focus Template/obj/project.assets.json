@@ -2,6 +2,54 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -342,6 +390,54 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -861,6 +957,54 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -1381,6 +1525,54 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -1901,6 +2093,54 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -2420,6 +2660,54 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -2940,6 +3228,54 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -3459,6 +3795,54 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "Emgu.CV/4.2.0.3662": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll": {}
+        }
+      },
+      "Emgu.CV.runtime.windows/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.2.0.3662]",
+          "Emgu.CV.runtime.windows.cuda.cufft": "[10.1.243]",
+          "Emgu.CV.runtime.windows.cuda.dnn": "[7.5.1]",
+          "Emgu.CV.runtime.windows.cuda.npp": "[10.1.243]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.cufft.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.dnn.targets": {}
+        }
+      },
+      "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+        "type": "package",
+        "build": {
+          "build/Emgu.CV.runtime.windows.cuda.npp.targets": {}
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -3980,6 +4364,197 @@
     }
   },
   "libraries": {
+    "Emgu.CV/4.2.0.3662": {
+      "sha512": "U9cMx6a2t6d+rui5rZkb9LFStS8cTm2Fh6tOvig7y4+yPD5sW8bKQwBO4eognsezOzVmwf7f2/LvvMqo/rYTiA==",
+      "type": "package",
+      "path": "emgu.cv/4.2.0.3662",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.CV.License.txt",
+        "emgu.cv.4.2.0.3662.nupkg.sha512",
+        "emgu.cv.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Emgu.CV.World.NetStandard.dll",
+        "lib/netstandard2.0/Emgu.CV.World.NetStandard.xml"
+      ]
+    },
+    "Emgu.CV.runtime.windows/4.2.0.3662": {
+      "sha512": "DT8v08/ZMW+ll7Lvlf2qci18XoffrZUfR1lrdTWhdxjtmFMdOmdclUgfR29R2Sj6vdxxvh+kOtmf4oCn/Rsu+Q==",
+      "type": "package",
+      "path": "emgu.cv.runtime.windows/4.2.0.3662",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.CV.License.txt",
+        "build/Emgu.CV.runtime.windows.targets",
+        "build/x64/concrt140.dll",
+        "build/x64/cvextern.dll",
+        "build/x64/msvcp140.dll",
+        "build/x64/msvcp140_1.dll",
+        "build/x64/msvcp140_2.dll",
+        "build/x64/msvcp140_codecvt_ids.dll",
+        "build/x64/opencv_videoio_ffmpeg420_64.dll",
+        "build/x64/vcruntime140.dll",
+        "build/x64/vcruntime140_1.dll",
+        "build/x86/concrt140.dll",
+        "build/x86/cvextern.dll",
+        "build/x86/msvcp140.dll",
+        "build/x86/msvcp140_1.dll",
+        "build/x86/msvcp140_2.dll",
+        "build/x86/msvcp140_codecvt_ids.dll",
+        "build/x86/opencv_videoio_ffmpeg420.dll",
+        "build/x86/vcruntime140.dll",
+        "emgu.cv.runtime.windows.4.2.0.3662.nupkg.sha512",
+        "emgu.cv.runtime.windows.nuspec",
+        "icon.png",
+        "lib/net461/Emgu.CV.UI.dll",
+        "lib/net461/Emgu.CV.UI.xml"
+      ]
+    },
+    "Emgu.CV.runtime.windows.cuda/4.2.0.3662": {
+      "sha512": "TNWN3XPHEzWEJW1D6KK9cKSY/7T/31e6uN7M20wI4+DK1tfETRUKjYjNCh3kpj6C/2tnKOUO5wvFSSE+jlq3iA==",
+      "type": "package",
+      "path": "emgu.cv.runtime.windows.cuda/4.2.0.3662",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.CV.License.txt",
+        "build/Emgu.CV.runtime.windows.cuda.targets",
+        "build/x64/concrt140.dll",
+        "build/x64/cvextern.dll",
+        "build/x64/freetype.dll",
+        "build/x64/harfbuzz.dll",
+        "build/x64/msvcp140.dll",
+        "build/x64/msvcp140_1.dll",
+        "build/x64/msvcp140_2.dll",
+        "build/x64/msvcp140_codecvt_ids.dll",
+        "build/x64/opencv_aruco420.dll",
+        "build/x64/opencv_bgsegm420.dll",
+        "build/x64/opencv_bioinspired420.dll",
+        "build/x64/opencv_calib3d420.dll",
+        "build/x64/opencv_ccalib420.dll",
+        "build/x64/opencv_core420.dll",
+        "build/x64/opencv_cudaarithm420.dll",
+        "build/x64/opencv_cudabgsegm420.dll",
+        "build/x64/opencv_cudacodec420.dll",
+        "build/x64/opencv_cudafeatures2d420.dll",
+        "build/x64/opencv_cudafilters420.dll",
+        "build/x64/opencv_cudaimgproc420.dll",
+        "build/x64/opencv_cudalegacy420.dll",
+        "build/x64/opencv_cudaobjdetect420.dll",
+        "build/x64/opencv_cudaoptflow420.dll",
+        "build/x64/opencv_cudastereo420.dll",
+        "build/x64/opencv_cudawarping420.dll",
+        "build/x64/opencv_cudev420.dll",
+        "build/x64/opencv_datasets420.dll",
+        "build/x64/opencv_dnn420.dll",
+        "build/x64/opencv_dnn_objdetect420.dll",
+        "build/x64/opencv_dnn_superres420.dll",
+        "build/x64/opencv_dpm420.dll",
+        "build/x64/opencv_face420.dll",
+        "build/x64/opencv_features2d420.dll",
+        "build/x64/opencv_flann420.dll",
+        "build/x64/opencv_freetype420.dll",
+        "build/x64/opencv_fuzzy420.dll",
+        "build/x64/opencv_gapi420.dll",
+        "build/x64/opencv_hfs420.dll",
+        "build/x64/opencv_highgui420.dll",
+        "build/x64/opencv_img_hash420.dll",
+        "build/x64/opencv_imgcodecs420.dll",
+        "build/x64/opencv_imgproc420.dll",
+        "build/x64/opencv_line_descriptor420.dll",
+        "build/x64/opencv_ml420.dll",
+        "build/x64/opencv_objdetect420.dll",
+        "build/x64/opencv_optflow420.dll",
+        "build/x64/opencv_phase_unwrapping420.dll",
+        "build/x64/opencv_photo420.dll",
+        "build/x64/opencv_plot420.dll",
+        "build/x64/opencv_quality420.dll",
+        "build/x64/opencv_rgbd420.dll",
+        "build/x64/opencv_saliency420.dll",
+        "build/x64/opencv_shape420.dll",
+        "build/x64/opencv_stereo420.dll",
+        "build/x64/opencv_stitching420.dll",
+        "build/x64/opencv_structured_light420.dll",
+        "build/x64/opencv_superres420.dll",
+        "build/x64/opencv_surface_matching420.dll",
+        "build/x64/opencv_text420.dll",
+        "build/x64/opencv_tracking420.dll",
+        "build/x64/opencv_video420.dll",
+        "build/x64/opencv_videoio420.dll",
+        "build/x64/opencv_videoio_ffmpeg420_64.dll",
+        "build/x64/opencv_videostab420.dll",
+        "build/x64/opencv_viz420.dll",
+        "build/x64/opencv_xfeatures2d420.dll",
+        "build/x64/opencv_ximgproc420.dll",
+        "build/x64/opencv_xobjdetect420.dll",
+        "build/x64/opencv_xphoto420.dll",
+        "build/x64/vcruntime140.dll",
+        "build/x64/vcruntime140_1.dll",
+        "emgu.cv.runtime.windows.cuda.4.2.0.3662.nupkg.sha512",
+        "emgu.cv.runtime.windows.cuda.nuspec",
+        "icon.png",
+        "lib/net461/Emgu.CV.UI.dll",
+        "lib/net461/Emgu.CV.UI.xml"
+      ]
+    },
+    "Emgu.CV.runtime.windows.cuda.cufft/10.1.243": {
+      "sha512": "MYV6+Ypkub2OaEJaCoqTt1vOBC/AQre/t8fesgGfiMhr0wmQypHhYw40+ApLxy2plLZd5zSBexsRm/I5yTdufw==",
+      "type": "package",
+      "path": "emgu.cv.runtime.windows.cuda.cufft/10.1.243",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CUDA_EULA.txt",
+        "build/Emgu.CV.runtime.windows.cuda.cufft.targets",
+        "build/x64/cufft64_10.dll",
+        "emgu.cv.runtime.windows.cuda.cufft.10.1.243.nupkg.sha512",
+        "emgu.cv.runtime.windows.cuda.cufft.nuspec"
+      ]
+    },
+    "Emgu.CV.runtime.windows.cuda.dnn/7.5.1": {
+      "sha512": "ki463Wu+aHGro2QSHtFRY8oG7zrcABkJVal/aGfARGZhCVtjvJep2rTOQNRvJ0vYjV4cf/ta49HcV1hOP83htg==",
+      "type": "package",
+      "path": "emgu.cv.runtime.windows.cuda.dnn/7.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Emgu.CV.runtime.windows.cuda.dnn.targets",
+        "build/x64/cudnn64_7.dll",
+        "cuDNN_SLA.txt",
+        "emgu.cv.runtime.windows.cuda.dnn.7.5.1.nupkg.sha512",
+        "emgu.cv.runtime.windows.cuda.dnn.nuspec"
+      ]
+    },
+    "Emgu.CV.runtime.windows.cuda.npp/10.1.243": {
+      "sha512": "7OxJQYKldaSF57KSqjc+F1+bMuG80bW1beE6EGMjkdXJDxk65yo/17Va7rsSufyROqcZb/0PSpOhXL1LBvHfKw==",
+      "type": "package",
+      "path": "emgu.cv.runtime.windows.cuda.npp/10.1.243",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CUDA_EULA.txt",
+        "build/Emgu.CV.runtime.windows.cuda.npp.targets",
+        "build/x64/cublas64_10.dll",
+        "build/x64/cublasLt64_10.dll",
+        "build/x64/cudart64_101.dll",
+        "build/x64/nppc64_10.dll",
+        "build/x64/nppial64_10.dll",
+        "build/x64/nppicc64_10.dll",
+        "build/x64/nppicom64_10.dll",
+        "build/x64/nppidei64_10.dll",
+        "build/x64/nppif64_10.dll",
+        "build/x64/nppig64_10.dll",
+        "build/x64/nppim64_10.dll",
+        "build/x64/nppist64_10.dll",
+        "build/x64/nppisu64_10.dll",
+        "build/x64/nppitc64_10.dll",
+        "build/x64/npps64_10.dll",
+        "emgu.cv.runtime.windows.cuda.npp.10.1.243.nupkg.sha512",
+        "emgu.cv.runtime.windows.cuda.npp.nuspec"
+      ]
+    },
     "Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
       "sha512": "5dPUM27TkI2K/VW51BfIJtYkQ+HmmpY0/GBop0CtHaXCOuYOH89IhtV/Dv9JE5iFODBKBR+yV1NkRjfhgDDBGw==",
       "type": "package",
@@ -8514,6 +9089,8 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "Emgu.CV.runtime.windows >= 4.2.0.3662",
+      "Emgu.CV.runtime.windows.cuda >= 4.2.0.3662",
       "Focus Template.Core >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10",
       "Microsoft.UI.Xaml >= 2.4.0",
@@ -8561,6 +9138,14 @@
     "frameworks": {
       "uap10.0.17763": {
         "dependencies": {
+          "Emgu.CV.runtime.windows": {
+            "target": "Package",
+            "version": "[4.2.0.3662, )"
+          },
+          "Emgu.CV.runtime.windows.cuda": {
+            "target": "Package",
+            "version": "[4.2.0.3662, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.10, )"

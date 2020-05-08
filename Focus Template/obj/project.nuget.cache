@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "yhLRtS70LYSqD2I7wyxzn8ltwM1jURyfCASwM/GY7ccjU1y5iwXF+WC5R55bEkxthdTPGzdSNqMXIw4fH2LngQ==",
+  "dgSpecHash": "bnmYYW5+o1+W1Aye1OBkGNUVxXFgemAozax9k6aNl4YTUcvlb8eygUQ+btXTK/mOTAut0ynCR9O/k6XCBqJwww==",
   "success": true,
   "projectFilePath": "C:\\Users\\John\\Source\\Repos\\FocusTemplate\\Focus Template\\Focus Template.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\John\\.nuget\\packages\\emgu.cv\\4.2.0.3662\\emgu.cv.4.2.0.3662.nupkg.sha512",
+    "C:\\Users\\John\\.nuget\\packages\\emgu.cv.runtime.windows\\4.2.0.3662\\emgu.cv.runtime.windows.4.2.0.3662.nupkg.sha512",
+    "C:\\Users\\John\\.nuget\\packages\\emgu.cv.runtime.windows.cuda\\4.2.0.3662\\emgu.cv.runtime.windows.cuda.4.2.0.3662.nupkg.sha512",
+    "C:\\Users\\John\\.nuget\\packages\\emgu.cv.runtime.windows.cuda.cufft\\10.1.243\\emgu.cv.runtime.windows.cuda.cufft.10.1.243.nupkg.sha512",
+    "C:\\Users\\John\\.nuget\\packages\\emgu.cv.runtime.windows.cuda.dnn\\7.5.1\\emgu.cv.runtime.windows.cuda.dnn.7.5.1.nupkg.sha512",
+    "C:\\Users\\John\\.nuget\\packages\\emgu.cv.runtime.windows.cuda.npp\\10.1.243\\emgu.cv.runtime.windows.cuda.npp.10.1.243.nupkg.sha512",
     "C:\\Users\\John\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Users\\John\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
